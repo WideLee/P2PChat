@@ -1,0 +1,40 @@
+package basic;
+
+option java_package="limk.p2pchat.basic";
+option java_outer_classname="MessageBasic";
+
+message MessageEntity{
+	enum MessageType{
+		ACK = 0;
+		HELLO = 1;
+		WORD = 2;
+		PICTURE = 3;
+		OTHER = 4;
+	}
+
+	enum MessageView{
+		SEND = 0;
+		RECEIVE = 1;
+	}
+
+	enum MessageState{
+		SENDING = 0;
+		SEND_FAIL = 1;
+		SEND_OK = 2;
+	}
+
+	required int64 messageID = 1;
+	required int64 UUID = 2;
+	required string messageDate = 3;
+	required int32 messageType = 4;
+	required int32 messageState = 5;
+	required int32 messageView = 6;
+	required bool isRead = 7;
+	optional string messageHead = 8;
+	optional bytes messagePayload = 9;
+}
+
+message UserEntity{
+	required int64 uuid = 1;
+	required string name = 2;
+}
