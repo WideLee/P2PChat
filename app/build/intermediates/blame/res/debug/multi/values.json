@@ -1,0 +1,395 @@
+[
+    {
+        "outputFile": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/build/intermediates/res/merged/debug/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/res/values/dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 89,
+                        "endColumn": 57,
+                        "endOffset": 142
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 113,
+                    "endColumn": 55,
+                    "endOffset": 164
+                },
+                "from": {
+                    "file": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/res/values/dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 147,
+                        "endColumn": 55,
+                        "endOffset": 198
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 169,
+                    "endColumn": 52,
+                    "endOffset": 217
+                },
+                "from": {
+                    "file": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 101,
+                        "endColumn": 52,
+                        "endOffset": 149
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 222,
+                    "endColumn": 44,
+                    "endOffset": 262
+                },
+                "from": {
+                    "file": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 44,
+                        "endOffset": 96
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 267,
+                    "endColumn": 35,
+                    "endOffset": 298
+                },
+                "from": {
+                    "file": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 207,
+                        "endColumn": 35,
+                        "endOffset": 238
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 303,
+                    "endColumn": 44,
+                    "endOffset": 343
+                },
+                "from": {
+                    "file": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 451,
+                        "endColumn": 44,
+                        "endOffset": 491
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 348,
+                    "endColumn": 49,
+                    "endOffset": 393
+                },
+                "from": {
+                    "file": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 401,
+                        "endColumn": 49,
+                        "endOffset": 446
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 398,
+                    "endColumn": 39,
+                    "endOffset": 433
+                },
+                "from": {
+                    "file": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 279,
+                        "endColumn": 39,
+                        "endOffset": 314
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 438,
+                    "endColumn": 39,
+                    "endOffset": 473
+                },
+                "from": {
+                    "file": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 496,
+                        "endColumn": 39,
+                        "endOffset": 531
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 478,
+                    "endColumn": 52,
+                    "endOffset": 526
+                },
+                "from": {
+                    "file": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 154,
+                        "endColumn": 52,
+                        "endOffset": 202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 531,
+                    "endColumn": 47,
+                    "endOffset": 574
+                },
+                "from": {
+                    "file": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 319,
+                        "endColumn": 47,
+                        "endOffset": 362
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 579,
+                    "endColumn": 41,
+                    "endOffset": 616
+                },
+                "from": {
+                    "file": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 536,
+                        "endColumn": 41,
+                        "endOffset": 573
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 621,
+                    "endColumn": 33,
+                    "endOffset": 650
+                },
+                "from": {
+                    "file": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 367,
+                        "endColumn": 33,
+                        "endOffset": 396
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 655,
+                    "endColumn": 40,
+                    "endOffset": 691
+                },
+                "from": {
+                    "file": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 627,
+                        "endColumn": 40,
+                        "endOffset": 663
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 696,
+                    "endColumn": 35,
+                    "endOffset": 727
+                },
+                "from": {
+                    "file": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 243,
+                        "endColumn": 35,
+                        "endOffset": 274
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 732,
+                    "endColumn": 48,
+                    "endOffset": 776
+                },
+                "from": {
+                    "file": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 578,
+                        "endColumn": 48,
+                        "endOffset": 622
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 781,
+                    "endLine": 24,
+                    "endColumn": 12,
+                    "endOffset": 1067
+                },
+                "from": {
+                    "file": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/res/values/styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 186,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 472
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1072,
+                    "endLine": 27,
+                    "endColumn": 12,
+                    "endOffset": 1227
+                },
+                "from": {
+                    "file": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/res/values/styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 510,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 665
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1232,
+                    "endLine": 36,
+                    "endColumn": 12,
+                    "endOffset": 1648
+                },
+                "from": {
+                    "file": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/res/values/styles.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 927,
+                        "endLine": 34,
+                        "endColumn": 12,
+                        "endOffset": 1343
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 1653,
+                    "endLine": 42,
+                    "endColumn": 12,
+                    "endOffset": 1903
+                },
+                "from": {
+                    "file": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/res/values/styles.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 671,
+                        "endLine": 24,
+                        "endColumn": 12,
+                        "endOffset": 921
+                    }
+                }
+            }
+        ]
+    }
+]

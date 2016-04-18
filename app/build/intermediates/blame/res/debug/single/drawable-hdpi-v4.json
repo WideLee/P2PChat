@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/title_bar.png",
+        "source": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/res/drawable-hdpi/title_bar.png"
+    },
+    {
+        "merged": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/send_error.png",
+        "source": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/res/drawable-hdpi/send_error.png"
+    },
+    {
+        "merged": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/mm_title_btn_pressed.9.png",
+        "source": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/res/drawable-hdpi/mm_title_btn_pressed.9.png"
+    },
+    {
+        "merged": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/chatto_bg_normal.9.png",
+        "source": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/res/drawable-hdpi/chatto_bg_normal.9.png"
+    },
+    {
+        "merged": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/mm_title_back_normal.9.png",
+        "source": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/res/drawable-hdpi/mm_title_back_normal.9.png"
+    },
+    {
+        "merged": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/mm_title_btn_normal.9.png",
+        "source": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/res/drawable-hdpi/mm_title_btn_normal.9.png"
+    },
+    {
+        "merged": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/chatfrom_bg_pressed.9.png",
+        "source": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/res/drawable-hdpi/chatfrom_bg_pressed.9.png"
+    },
+    {
+        "merged": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/chatto_bg_pressed.9.png",
+        "source": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/res/drawable-hdpi/chatto_bg_pressed.9.png"
+    },
+    {
+        "merged": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/mini_avatar_shadow.png",
+        "source": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/res/drawable-hdpi/mini_avatar_shadow.png"
+    },
+    {
+        "merged": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/send_ok.png",
+        "source": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/res/drawable-hdpi/send_ok.png"
+    },
+    {
+        "merged": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/mm_title_back_pressed.9.png",
+        "source": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/res/drawable-hdpi/mm_title_back_pressed.9.png"
+    },
+    {
+        "merged": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/bottom_bar.9.png",
+        "source": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/res/drawable-hdpi/bottom_bar.9.png"
+    },
+    {
+        "merged": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_launcher.png",
+        "source": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/chatfrom_bg_normal.9.png",
+        "source": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/res/drawable-hdpi/chatfrom_bg_normal.9.png"
+    },
+    {
+        "merged": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/home_view_bg.png",
+        "source": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/res/drawable-hdpi/home_view_bg.png"
+    }
+]

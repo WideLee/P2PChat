@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">P2PChat</string>
+    <string name="back">返回</string>
+    <string name="continue_text">继续</string>
+    <string name="display_uuid">您的UUID是：</string>
+    <string name="friend">好友列表</string>
+    <string name="friends">朋友：</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="input_name">请输入您的昵称：</string>
+    <string name="ip_addr">IP地址：</string>
+    <string name="ok">确定</string>
+    <string name="refresh">刷新列表</string>
+    <string name="send">发送</string>
+    <string name="unread_message">未读消息：</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="chat_content_style">
+        <item name="android:minHeight">50dp</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+    <style name="chat_date_style">
+        <item name="android:padding">2dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:background">#bfbfbf</item>
+    </style>
+</resources>

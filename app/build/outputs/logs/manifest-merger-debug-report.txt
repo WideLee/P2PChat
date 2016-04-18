@@ -1,0 +1,157 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:2:1-80:12
+	xmlns:android
+		ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:2:11-69
+	package
+		ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:3:5-27
+		INJECTED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:8:9-34
+		INJECTED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:11:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:12:5-76
+	android:name
+		ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:12:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:13:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:14:5-67
+	android:name
+		ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:14:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:15:5-76
+	android:name
+		ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:15:22-73
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:16:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:17:5-65
+	android:name
+		ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:17:22-63
+application
+ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:19:5-78:19
+	android:label
+		ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:22:9-41
+	android:allowBackup
+		ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:20:9-35
+	android:icon
+		ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:21:9-45
+	android:theme
+		ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:23:9-40
+activity#limk.p2pchat.activity.ChatActivity
+ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:24:9-27:20
+	android:label
+		ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:26:13-45
+	android:name
+		ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:25:13-62
+activity#limk.p2pchat.activity.SplashActivity
+ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:28:9-36:20
+	android:label
+		ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:30:13-45
+	android:name
+		ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:29:13-64
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:31:13-35:29
+action#android.intent.action.MAIN
+ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:32:17-69
+	android:name
+		ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:32:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:34:17-77
+	android:name
+		ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:34:27-74
+activity#limk.p2pchat.activity.RegisterActivity
+ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:37:9-40:20
+	android:label
+		ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:39:13-45
+	android:name
+		ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:38:13-66
+activity#limk.p2pchat.activity.UserListActivity
+ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:41:9-45:20
+	android:label
+		ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:43:13-45
+	android:name
+		ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:42:13-66
+	android:launchMode
+		ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:44:13-43
+activity#unuse.TestActivity
+ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:46:9-49:20
+	android:label
+		ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:48:13-45
+	android:name
+		ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:47:13-46
+activity#limk.p2pchat.activity.ImageShowActivity
+ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:50:9-53:20
+	android:label
+		ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:52:13-45
+	android:name
+		ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:51:13-67
+service#limk.p2pchat.service.ServerService
+ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:55:9-56:19
+	android:name
+		ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:55:18-67
+receiver#limk.p2pchat.receiver.MessageReceiver
+ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:58:9-77:20
+	android:name
+		ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:58:19-71
+intent-filter#limk.p2pchat.message.ack
+ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:59:13-61:29
+action#limk.p2pchat.message.ack
+ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:60:17-67
+	android:name
+		ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:60:25-64
+intent-filter#limk.p2pchat.message.hello
+ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:62:13-64:29
+action#limk.p2pchat.message.hello
+ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:63:17-69
+	android:name
+		ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:63:25-66
+intent-filter#limk.p2pchat.message.word
+ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:65:13-67:29
+action#limk.p2pchat.message.word
+ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:66:17-68
+	android:name
+		ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:66:25-65
+intent-filter#limk.p2pchat.message.picture
+ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:68:13-70:29
+action#limk.p2pchat.message.picture
+ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:69:17-71
+	android:name
+		ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:69:25-68
+intent-filter#limk.p2pchat.message.other
+ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:71:13-73:29
+action#limk.p2pchat.message.other
+ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:72:17-69
+	android:name
+		ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:72:25-66
+intent-filter#limk.p2pchat.send.fail
+ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:74:14-76:29
+action#limk.p2pchat.send.fail
+ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:75:17-65
+	android:name
+		ADDED from /Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/AndroidManifest.xml:75:25-62

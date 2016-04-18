@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/tv_display_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/friends"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_diaplay_ip_addr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_display_user_name"
+        android:text="@string/ip_addr"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tv_unread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_diaplay_ip_addr"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="3dp"
+        android:gravity="center"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tv_ip_addr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_diaplay_ip_addr"
+        android:layout_alignBottom="@+id/tv_diaplay_ip_addr"
+        android:layout_toRightOf="@+id/tv_diaplay_ip_addr"
+        android:text=""
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tv_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/tv_display_user_name"
+        android:singleLine="true"
+        android:text=""
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_display_unread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_unread"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/tv_unread"
+        android:gravity="center"
+        android:text="@string/unread_message" />
+
+    <TextView
+        android:id="@+id/tv_uuid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/tv_display_unread"
+        android:text=""
+        android:visibility="gone" />
+
+</RelativeLayout>

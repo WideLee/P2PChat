@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="6dp" >
+
+    <TextView
+        android:id="@+id/tv_time"
+        style="@style/chat_date_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp" >
+
+        <ImageView
+            android:id="@+id/iv_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/mini_avatar_shadow"
+            android:focusable="false" />
+
+        <RelativeLayout
+            android:id="@+id/rl_chatcontent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_toRightOf="@id/iv_head"
+            android:background="@drawable/chatfrom_bg" >
+
+            <ImageView
+                android:id="@+id/iv_chatimage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_launcher" />
+        </RelativeLayout>
+
+        <ProgressBar
+            android:id="@+id/pb_sending"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/rl_chatcontent"
+            android:layout_toRightOf="@+id/rl_chatcontent"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_send_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/pb_sending"
+            android:layout_toRightOf="@+id/pb_sending"
+            android:src="@drawable/send_ok"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_send_fail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/iv_send_ok"
+            android:layout_toRightOf="@+id/iv_send_ok"
+            android:src="@drawable/send_error"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>
