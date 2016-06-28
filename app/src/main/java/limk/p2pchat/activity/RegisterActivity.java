@@ -1,6 +1,5 @@
 package limk.p2pchat.activity;
 
-import limk.p2pchat.R;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -13,58 +12,58 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import limk.p2pchat.R;
+
 public class RegisterActivity extends Activity {
 
-	private EditText nameEditText;
-	private TextView uuidTextView;
-	private Button okButton;
-	private Button continueButton;
-	private SharedPreferences sharedPreferences;
-	private SharedPreferences.Editor editor;
+    private EditText nameEditText;
+    private TextView uuidTextView;
+    private Button okButton;
+    private Button continueButton;
+    private SharedPreferences sharedPreferences;
+    private SharedPreferences.Editor editor;
+    private OnClickListener okClickListener = new OnClickListener() {
 
-	@Override
-	public void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		requestWindowFeature(Window.FEATURE_NO_TITLE);
-		setContentView(R.layout.activity_register);
+        @Override
+        public void onClick(View v) {
+            okButton.setVisibility(View.GONE);
+            nameEditText.setEnabled(false);
 
-		sharedPreferences = getSharedPreferences("user", Context.MODE_PRIVATE);
-		editor = sharedPreferences.edit();
+            long uuid = System.currentTimeMillis() % 100000;
+            String name = nameEditText.getText().toString();
+            editor.putString("name", name);
+            editor.putLong("uuid", uuid);
+            editor.commit();
+            uuidTextView.setText(getResources().getString(R.string.display_uuid) + uuid);
+            uuidTextView.setVisibility(View.VISIBLE);
+            continueButton.setVisibility(View.VISIBLE);
+        }
+    };
+    private OnClickListener continueClickListener = new OnClickListener() {
 
-		nameEditText = (EditText) this.findViewById(R.id.et_name);
-		uuidTextView = (TextView) this.findViewById(R.id.tv_display_uuid);
-		okButton = (Button) this.findViewById(R.id.btn_ok);
-		continueButton = (Button) this.findViewById(R.id.btn_continue);
+        @Override
+        public void onClick(View v) {
+            Intent intent = new Intent(RegisterActivity.this, UserListActivity.class);
+            startActivity(intent);
+            finish();
+        }
+    };
 
-		okButton.setOnClickListener(okClickListener);
-		continueButton.setOnClickListener(continueClickListener);
-	}
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        setContentView(R.layout.activity_register);
 
-	private OnClickListener okClickListener = new OnClickListener() {
+        sharedPreferences = getSharedPreferences("user", Context.MODE_PRIVATE);
+        editor = sharedPreferences.edit();
 
-		@Override
-		public void onClick(View v) {
-			okButton.setVisibility(View.GONE);
-			nameEditText.setEnabled(false);
+        nameEditText = (EditText) this.findViewById(R.id.et_name);
+        uuidTextView = (TextView) this.findViewById(R.id.tv_display_uuid);
+        okButton = (Button) this.findViewById(R.id.btn_ok);
+        continueButton = (Button) this.findViewById(R.id.btn_continue);
 
-			long uuid = System.currentTimeMillis() % 100000;
-			String name = nameEditText.getText().toString();
-			editor.putString("name", name);
-			editor.putLong("uuid", uuid);
-			editor.commit();
-			uuidTextView.setText(getResources().getString(R.string.display_uuid) + uuid);
-			uuidTextView.setVisibility(View.VISIBLE);
-			continueButton.setVisibility(View.VISIBLE);
-		}
-	};
-
-	private OnClickListener continueClickListener = new OnClickListener() {
-
-		@Override
-		public void onClick(View v) {
-			Intent intent = new Intent(RegisterActivity.this, UserListActivity.class);
-			startActivity(intent);
-			finish();
-		}
-	};
+        okButton.setOnClickListener(okClickListener);
+        continueButton.setOnClickListener(continueClickListener);
+    }
 }

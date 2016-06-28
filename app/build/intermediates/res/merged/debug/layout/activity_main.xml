@@ -4,13 +4,13 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="#f0f0e0"
-    tools:context=".activity.ChatActivity" >
+    tools:context=".activity.ChatActivity">
 
     <RelativeLayout
         android:id="@+id/rl_layout"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/title_bar" >
+        android:background="@drawable/title_bar">
 
         <Button
             android:id="@+id/btn_back"
@@ -40,7 +40,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:background="@drawable/bottom_bar" >
+        android:background="@drawable/bottom_bar">
 
         <Button
             android:id="@+id/btn_send"
@@ -54,6 +54,17 @@
             android:textColor="#ffffff"
             android:textSize="20.0sp" />
 
+        <limk.p2pchat.view.RecordButton
+            android:id="@+id/btn_voice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/title_btn_right"
+            android:text="@string/record_voice"
+            android:textColor="#ffffff"
+            android:textSize="20.0sp" />
         <EditText
             android:id="@+id/et_sendmessage"
             android:layout_width="fill_parent"
@@ -63,9 +74,12 @@
             android:layout_marginRight="10dp"
             android:layout_marginTop="10dp"
             android:layout_toLeftOf="@id/btn_send"
+            android:layout_toRightOf="@id/btn_voice"
             android:inputType="text"
             android:singleLine="true"
             android:textSize="18sp" />
+
+
     </RelativeLayout>
 
     <ListView

@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    android:padding="6dp" >
+    android:padding="6dp">
 
     <TextView
         android:id="@+id/tv_time"
@@ -15,7 +15,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingTop="10dp" >
+        android:paddingTop="10dp">
 
         <ImageView
             android:id="@+id/iv_head"
@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="6dp"
             android:layout_toLeftOf="@id/iv_head"
-            android:background="@drawable/chatto_bg" >
+            android:background="@drawable/chatto_bg">
 
             <ImageView
                 android:id="@+id/iv_chatimage"

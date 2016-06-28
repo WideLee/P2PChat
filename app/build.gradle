@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "limk.p2pchat"
-        minSdkVersion 9
+        minSdkVersion 11
         targetSdkVersion 15
     }
 

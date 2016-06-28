@@ -15,5 +15,6 @@
     <string name="ip_addr">IP地址：</string>
     <string name="unread_message">未读消息：</string>
     <string name="refresh">刷新列表</string>
+    <string name="record_voice">录音</string>
 
 </resources>

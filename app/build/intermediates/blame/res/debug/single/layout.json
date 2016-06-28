@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/build/intermediates/res/merged/debug/layout/video_layout.xml",
+        "source": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/res/layout/video_layout.xml"
+    },
+    {
         "merged": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/build/intermediates/res/merged/debug/layout/test.xml",
         "source": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/res/layout/test.xml"
     },
@@ -20,24 +24,28 @@
         "source": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/res/layout/message_list_item_left_other.xml"
     },
     {
-        "merged": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/build/intermediates/res/merged/debug/layout/message_list_item_right_word.xml",
-        "source": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/res/layout/message_list_item_right_word.xml"
+        "merged": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/build/intermediates/res/merged/debug/layout/message_list_item_left_picture.xml",
+        "source": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/res/layout/message_list_item_left_picture.xml"
+    },
+    {
+        "merged": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/build/intermediates/res/merged/debug/layout/message_list_item_left_word.xml",
+        "source": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/res/layout/message_list_item_left_word.xml"
+    },
+    {
+        "merged": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/build/intermediates/res/merged/debug/layout/record_activity.xml",
+        "source": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/res/layout/record_activity.xml"
     },
     {
         "merged": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/build/intermediates/res/merged/debug/layout/popup_layout.xml",
         "source": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/res/layout/popup_layout.xml"
     },
     {
-        "merged": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/build/intermediates/res/merged/debug/layout/message_list_item_left_picture.xml",
-        "source": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/res/layout/message_list_item_left_picture.xml"
+        "merged": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/build/intermediates/res/merged/debug/layout/message_list_item_right_word.xml",
+        "source": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/res/layout/message_list_item_right_word.xml"
     },
     {
         "merged": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/build/intermediates/res/merged/debug/layout/user_list_item.xml",
         "source": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/res/layout/user_list_item.xml"
-    },
-    {
-        "merged": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/build/intermediates/res/merged/debug/layout/message_list_item_left_word.xml",
-        "source": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/src/main/res/layout/message_list_item_left_word.xml"
     },
     {
         "merged": "/Users/limkuan/Study/Dropbox/16年春季学期/P2PChat/app/build/intermediates/res/merged/debug/layout/activity_main.xml",

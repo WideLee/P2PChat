@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    android:padding="6dp" >
+    android:padding="6dp">
 
     <TextView
         android:id="@+id/tv_time"
@@ -16,7 +16,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingTop="10dp" >
+        android:paddingTop="10dp">
 
         <ImageView
             android:id="@+id/iv_head"
@@ -33,7 +33,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="6dp"
             android:layout_toRightOf="@id/iv_head"
-            android:background="@drawable/chatfrom_bg" >
+            android:background="@drawable/chatfrom_bg">
 
             <ImageView
                 android:id="@+id/iv_chatimage"
@@ -41,6 +41,21 @@
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:src="@drawable/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/iv_play_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/iv_chatimage"
+                android:layout_alignLeft="@id/iv_chatimage"
+                android:layout_alignRight="@id/iv_chatimage"
+                android:layout_alignTop="@id/iv_chatimage"
+                android:layout_centerInParent="true"
+                android:alpha="0.3"
+                android:background="@android:color/background_light"
+                android:scaleType="center"
+                android:src="@drawable/play"
+                android:visibility="gone" />
         </RelativeLayout>
 
         <ProgressBar

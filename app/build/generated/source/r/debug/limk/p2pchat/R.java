@@ -16,64 +16,75 @@ public final class R {
     }
     public static final class drawable {
         public static final int bottom_bar=0x7f020000;
-        public static final int chatfrom_bg=0x7f020001;
-        public static final int chatfrom_bg_normal=0x7f020002;
-        public static final int chatfrom_bg_pressed=0x7f020003;
-        public static final int chatto_bg=0x7f020004;
-        public static final int chatto_bg_normal=0x7f020005;
-        public static final int chatto_bg_pressed=0x7f020006;
-        public static final int home_view_bg=0x7f020007;
-        public static final int ic_launcher=0x7f020008;
-        public static final int mini_avatar_shadow=0x7f020009;
-        public static final int mm_title_back_normal=0x7f02000a;
-        public static final int mm_title_back_pressed=0x7f02000b;
-        public static final int mm_title_btn_normal=0x7f02000c;
-        public static final int mm_title_btn_pressed=0x7f02000d;
-        public static final int selector_btn_back=0x7f02000e;
-        public static final int send_error=0x7f02000f;
-        public static final int send_ok=0x7f020010;
-        public static final int title_bar=0x7f020011;
-        public static final int title_btn_right=0x7f020012;
+        public static final int cancel_record=0x7f020001;
+        public static final int chatfrom_bg=0x7f020002;
+        public static final int chatfrom_bg_normal=0x7f020003;
+        public static final int chatfrom_bg_pressed=0x7f020004;
+        public static final int chatto_bg=0x7f020005;
+        public static final int chatto_bg_normal=0x7f020006;
+        public static final int chatto_bg_pressed=0x7f020007;
+        public static final int home_view_bg=0x7f020008;
+        public static final int ic_launcher=0x7f020009;
+        public static final int mic_2=0x7f02000a;
+        public static final int mic_3=0x7f02000b;
+        public static final int mic_4=0x7f02000c;
+        public static final int mic_5=0x7f02000d;
+        public static final int mini_avatar_shadow=0x7f02000e;
+        public static final int mm_title_back_normal=0x7f02000f;
+        public static final int mm_title_back_pressed=0x7f020010;
+        public static final int mm_title_btn_normal=0x7f020011;
+        public static final int mm_title_btn_pressed=0x7f020012;
+        public static final int play=0x7f020013;
+        public static final int round_background=0x7f020014;
+        public static final int selector_btn_back=0x7f020015;
+        public static final int send_error=0x7f020016;
+        public static final int send_ok=0x7f020017;
+        public static final int title_bar=0x7f020018;
+        public static final int title_btn_right=0x7f020019;
     }
     public static final class id {
-        public static final int action_settings=0x7f080025;
+        public static final int action_settings=0x7f080029;
         public static final int btn_back=0x7f080001;
-        public static final int btn_continue=0x7f08000e;
-        public static final int btn_ok=0x7f08000c;
-        public static final int btn_refresh=0x7f080008;
-        public static final int btn_resend=0x7f080019;
+        public static final int btn_continue=0x7f08000f;
+        public static final int btn_ok=0x7f08000d;
+        public static final int btn_refresh=0x7f080009;
+        public static final int btn_resend=0x7f08001b;
         public static final int btn_send=0x7f080004;
-        public static final int button1=0x7f08001b;
-        public static final int et_name=0x7f08000b;
-        public static final int et_sendmessage=0x7f080005;
-        public static final int imageView1=0x7f08001d;
-        public static final int iv_amplify=0x7f08001a;
-        public static final int iv_chatimage=0x7f080012;
-        public static final int iv_head=0x7f080010;
-        public static final int iv_send_fail=0x7f080017;
-        public static final int iv_send_ok=0x7f080016;
-        public static final int listview=0x7f080006;
-        public static final int lv_neighbor=0x7f080009;
-        public static final int pb_sending=0x7f080015;
+        public static final int btn_voice=0x7f080005;
+        public static final int button1=0x7f08001e;
+        public static final int et_name=0x7f08000c;
+        public static final int et_sendmessage=0x7f080006;
+        public static final int imageView1=0x7f080020;
+        public static final int iv_amplify=0x7f08001c;
+        public static final int iv_chatimage=0x7f080013;
+        public static final int iv_head=0x7f080011;
+        public static final int iv_play_image=0x7f080019;
+        public static final int iv_send_fail=0x7f080018;
+        public static final int iv_send_ok=0x7f080017;
+        public static final int iv_video=0x7f080028;
+        public static final int listview=0x7f080007;
+        public static final int lv_neighbor=0x7f08000a;
+        public static final int pb_sending=0x7f080016;
+        public static final int record_button=0x7f08001d;
         public static final int rl_bottom=0x7f080003;
-        public static final int rl_chatcontent=0x7f080011;
+        public static final int rl_chatcontent=0x7f080012;
         public static final int rl_layout=0x7f080000;
-        public static final int textView1=0x7f08001c;
-        public static final int tv_chatcontent=0x7f080018;
-        public static final int tv_diaplay_ip_addr=0x7f08001f;
-        public static final int tv_display_unread=0x7f080023;
-        public static final int tv_display_user_name=0x7f08001e;
-        public static final int tv_display_uuid=0x7f08000d;
-        public static final int tv_file_name=0x7f080013;
-        public static final int tv_file_size=0x7f080014;
-        public static final int tv_friend=0x7f080007;
-        public static final int tv_input_name=0x7f08000a;
-        public static final int tv_ip_addr=0x7f080021;
-        public static final int tv_time=0x7f08000f;
-        public static final int tv_unread=0x7f080020;
-        public static final int tv_user_name=0x7f080022;
+        public static final int textView1=0x7f08001f;
+        public static final int tv_chatcontent=0x7f08001a;
+        public static final int tv_diaplay_ip_addr=0x7f080022;
+        public static final int tv_display_unread=0x7f080026;
+        public static final int tv_display_user_name=0x7f080021;
+        public static final int tv_display_uuid=0x7f08000e;
+        public static final int tv_file_name=0x7f080014;
+        public static final int tv_file_size=0x7f080015;
+        public static final int tv_friend=0x7f080008;
+        public static final int tv_input_name=0x7f08000b;
+        public static final int tv_ip_addr=0x7f080024;
+        public static final int tv_time=0x7f080010;
+        public static final int tv_unread=0x7f080023;
+        public static final int tv_user_name=0x7f080025;
         public static final int tv_username=0x7f080002;
-        public static final int tv_uuid=0x7f080024;
+        public static final int tv_uuid=0x7f080027;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -87,8 +98,10 @@ public final class R {
         public static final int message_list_item_right_picture=0x7f030008;
         public static final int message_list_item_right_word=0x7f030009;
         public static final int popup_layout=0x7f03000a;
-        public static final int test=0x7f03000b;
-        public static final int user_list_item=0x7f03000c;
+        public static final int record_activity=0x7f03000b;
+        public static final int test=0x7f03000c;
+        public static final int user_list_item=0x7f03000d;
+        public static final int video_layout=0x7f03000e;
     }
     public static final class menu {
         public static final int main=0x7f070000;
@@ -105,9 +118,10 @@ public final class R {
         public static final int input_name=0x7f050008;
         public static final int ip_addr=0x7f050009;
         public static final int ok=0x7f05000a;
-        public static final int refresh=0x7f05000b;
-        public static final int send=0x7f05000c;
-        public static final int unread_message=0x7f05000d;
+        public static final int record_voice=0x7f05000b;
+        public static final int refresh=0x7f05000c;
+        public static final int send=0x7f05000d;
+        public static final int unread_message=0x7f05000e;
     }
     public static final class style {
         /** 
@@ -122,5 +136,6 @@ public final class R {
         public static final int AppTheme=0x7f060001;
         public static final int chat_content_style=0x7f060002;
         public static final int chat_date_style=0x7f060003;
+        public static final int like_toast_dialog_style=0x7f060004;
     }
 }

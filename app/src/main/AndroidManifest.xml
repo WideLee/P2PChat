@@ -2,10 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="limk.p2pchat"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="1.0">
 
     <uses-sdk
-        android:minSdkVersion="9"
+        android:minSdkVersion="11"
         android:targetSdkVersion="15" />
 
     <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
@@ -14,20 +14,20 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme">
         <activity
             android:name="limk.p2pchat.activity.ChatActivity"
-            android:label="@string/app_name" >
-        </activity>
+            android:label="@string/app_name"/>
         <activity
             android:name="limk.p2pchat.activity.SplashActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -36,26 +36,21 @@
         </activity>
         <activity
             android:name="limk.p2pchat.activity.RegisterActivity"
-            android:label="@string/app_name" >
-        </activity>
+            android:label="@string/app_name"/>
         <activity
             android:name="limk.p2pchat.activity.UserListActivity"
             android:label="@string/app_name"
-            android:launchMode="singleTop" >
-        </activity>
+            android:launchMode="singleTop"/>
         <activity
-            android:name="unuse.TestActivity"
-            android:label="@string/app_name" >
-        </activity>
+        android:name="limk.p2pchat.activity.ImageShowActivity"
+        android:label="@string/app_name"/>
         <activity
-            android:name="limk.p2pchat.activity.ImageShowActivity"
-            android:label="@string/app_name" >
-        </activity>
+            android:name="limk.p2pchat.activity.VideoShowActivity"
+            android:label="@string/app_name"/>
 
-        <service android:name="limk.p2pchat.service.ServerService" >
-        </service>
+        <service android:name="limk.p2pchat.service.ServerService"/>
 
-        <receiver android:name="limk.p2pchat.receiver.MessageReceiver" >
+        <receiver android:name="limk.p2pchat.receiver.MessageReceiver">
             <intent-filter>
                 <action android:name="limk.p2pchat.message.ack" />
             </intent-filter>
@@ -71,7 +66,7 @@
             <intent-filter>
                 <action android:name="limk.p2pchat.message.other" />
             </intent-filter>
-             <intent-filter>
+            <intent-filter>
                 <action android:name="limk.p2pchat.send.fail" />
             </intent-filter>
         </receiver>

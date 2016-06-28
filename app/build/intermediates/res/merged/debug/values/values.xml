@@ -13,6 +13,7 @@
     <string name="input_name">请输入您的昵称：</string>
     <string name="ip_addr">IP地址：</string>
     <string name="ok">确定</string>
+    <string name="record_voice">录音</string>
     <string name="refresh">刷新列表</string>
     <string name="send">发送</string>
     <string name="unread_message">未读消息：</string>
@@ -40,5 +41,14 @@
         <item name="android:textColor">#ffffff</item>
         <item name="android:textSize">12sp</item>
         <item name="android:background">#bfbfbf</item>
+    </style>
+    <style name="like_toast_dialog_style">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@drawable/round_background</item>
     </style>
 </resources>
